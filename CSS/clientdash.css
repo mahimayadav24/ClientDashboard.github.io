@@ -581,7 +581,7 @@ input[type="text"] {
     border: none;
     color: #04B3B6;
     background-color: #C9F7F5;
-    box-shadow: 0px 8px 16px rgba(66, 100, 208, 0.2);
+    transition: .3s ease-in;
 }
 
 .btn2 {
@@ -592,7 +592,19 @@ input[type="text"] {
     border: none;
     color: #686565;
     background-color: #E7E7E7;
-    box-shadow: 0px 8px 16px rgba(66, 100, 208, 0.2);
+    transition: .3s ease-in;
+}
+
+.bt1:hover {
+    box-shadow: 0px 8px 16px #c4c4c46f;
+    transform: translateY(-2px);
+    transition: .3s ease-in;
+}
+
+.btn2:hover {
+    box-shadow: 0px 8px 16px #c4c4c46f;
+    transform: translateY(-2px);
+    transition: .3s ease-in;
 }
 
 .btntb1 button {
@@ -719,6 +731,11 @@ div.dataTables_wrapper div.dataTables_length select {
     background-color: #c4c4c458;
     padding: 16px;
     border-radius: 8px;
+}
+
+.table-bordered>:not(caption)>* {
+    border-width: 1px 0;
+    transform: translateY(10px);
 }
 
 @media screen and (max-width: 640px) {
