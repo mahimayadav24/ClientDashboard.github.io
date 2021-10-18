@@ -581,6 +581,7 @@ input[type="text"] {
     border: none;
     color: #04B3B6;
     background-color: #C9F7F5;
+    box-shadow: 0px 8px 16px rgba(66, 100, 208, 0.2);
 }
 
 .btn2 {
@@ -591,6 +592,7 @@ input[type="text"] {
     border: none;
     color: #686565;
     background-color: #E7E7E7;
+    box-shadow: 0px 8px 16px rgba(66, 100, 208, 0.2);
 }
 
 .btntb1 button {
@@ -703,6 +705,20 @@ div.dataTables_wrapper div.dataTables_length select {
     flex: 0 0 103%;
     max-width: 103%;
     text-align: right;
+}
+
+.twobtn {
+    text-align: end;
+}
+
+.sort {
+    text-align: center;
+}
+
+.span-bak span {
+    background-color: #c4c4c458;
+    padding: 16px;
+    border-radius: 8px;
 }
 
 @media screen and (max-width: 640px) {
